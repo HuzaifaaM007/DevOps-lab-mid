@@ -1,3 +1,10 @@
-
-
-
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "DevOps Lab Mid Exam",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {}
+}
