@@ -25,4 +25,5 @@ jobs:
         run: docker push your-username/my-app:latest
 
       - name: Deploy Container
-        run: docker run -d -p 80:80 your-username/my-app:latest
+        run: docker run -d -p 80:80 your-username/my-app:latest 
+        
