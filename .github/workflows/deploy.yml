@@ -19,10 +19,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker Image
-        run: docker build -t huzaifamurtaza007@gmail.com/my-app:latest .
+        run: docker build -t huzaifa0007/my-app:latest .
 
       - name: Push Docker Image
-        run: docker push huzaifamurtaza007@gmail.com/my-app:latest
-
-      - name: Deploy Container
-        run: docker run -d -p 80:80 huzaifamurtaza007@gmail.com/my-app:latest 
+        run: docker push huzaifa0007/my-app:latest
